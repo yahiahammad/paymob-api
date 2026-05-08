@@ -1,23 +1,15 @@
 ---
 name: paymob-api
 description: >
-  Complete Paymob payment API reference. Use whenever working with: Paymob integration, intention
-  API, client_secret, payment_methods, integration ID, HMAC, webhook callback, HMAC transaction
-  callback, HMAC card token callback, webhook testing tool, refund API, void, capture, save card
-  token, CIT, MIT, MOTO, subscription plan, subscription actions, suspend/resume/cancel
-  subscription, subscription cards, register webhook, list subscription transactions, QuickLink
-  API, create quicklink, cancel quicklink, transaction inquiry, by transaction ID, by order ID,
-  Pixel SDK, kiosk, mobile wallet, BNPL, split payment, split amount, convenience fee, bank
-  installments, Auth/Cap, Apple Pay, Apple Pay domain verification, Apple Pay certificates,
-  Google Pay, secret key, public key, API key, HMAC secret, integration credentials, glossary,
-  common issues, integration checklist, go-live, auth token, bearer token, generate auth token,
-  transaction processed callback, transaction response callback, callback payload, full payload,
-  ngrok webhook testing, MADA, Omannet, StcPay, Vodafone Cash, vaLU, Souhoola, Tabby, Tamara,
-  Kiosk reference number, card verification, card on file, card payment types, create subscription,
-  BNPL providers, wallet providers, 3DS, 3D Secure, card networks by region, quick start, first
-  payment, error codes, troubleshooting, reports, dashboard reports, gotchas, pitfalls, amounts
-  in cents, idempotency, rate limiting, updateIntentionData, payment_key, client_secret lifecycle,
-  Python, Node.js, cross-references.
+  Use when integrating with the Paymob payment API. Covers intention API,
+  client_secret, checkout experiences, HMAC webhook verification, refunds,
+  voids, captures, saved cards, CIT/MIT, subscriptions, QuickLinks,
+  transaction inquiry, Apple Pay, Google Pay, mobile SDKs, split payments,
+  regional payment methods (MADA, wallets, BNPL), credentials setup,
+  error codes, gotchas, and go-live checklist. Supports Egypt, Oman, KSA, UAE.
+license: MIT
+metadata:
+  author: yahia
 ---
 
 # Paymob API Skill

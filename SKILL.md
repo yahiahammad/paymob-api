@@ -9,13 +9,19 @@ description: >
   error codes, gotchas, and go-live checklist. Supports Egypt, Oman, KSA, UAE.
 license: MIT
 metadata:
-  author: yahia
+  author: yahia hammad
 ---
 
 # Paymob API Skill
 
-Last fetched: May 2026 | Support: support@paymob.com
+Support: support@paymob.com
 Postman collection: https://github.com/PaymobAccept/API-Postman-Collections
+
+---
+
+## Trigger When
+
+User mentions: "Paymob", "paymob API", "payment integration Egypt/Oman/KSA/UAE", "intention API", "client_secret", "HMAC webhook", "Unified Checkout", "Pixel checkout", "refund/void/capture Paymob", "saved cards Paymob", "CIT/MIT", "Paymob subscriptions", "QuickLinks Paymob", "MADA", "Paymob mobile SDK", or shares a Paymob dashboard URL.
 
 ---
 
@@ -94,7 +100,7 @@ What are you trying to do?
 - `15-apple-pay-setup.md` — Domain verification + both certificate types (full OpenSSL commands)
 - `16-common-issues-and-checklist.md` — Go-live checklist, 5 common errors + fixes, FAQ answers
 - `17-convenience-fee-and-bank-installments.md` — Convenience fee config + Bank Installments [EGY]
-- `18-glossary.md` — Full A-W glossary + May 2026 additions (client_secret, payment_key, 3DS, etc.)
+- `18-glossary.md` — Full A-W glossary including client_secret, payment_key, 3DS, and more
 - `21-error-codes.md` — All HTTP error shapes, fixes, token caching, debug tips
 - `22-core-features-conceptual.md` — Auth/Cap, Subscriptions, Saved Cards, Split Features, Reports (business-level)
 - `23-gotchas.md` — Non-obvious rules: amounts in cents, integration ID mismatch, webhook-only DB updates, idempotency, rate limits, void card-only, Apple Pay no WebView, Google Pay not in Egypt, and more
